@@ -1,6 +1,6 @@
 name: nightly build
 # This workflow is triggered on schedule
-on:
+on: [ pull_request ]
   schedule:
     - cron:  '0 1 * * *'   
 
